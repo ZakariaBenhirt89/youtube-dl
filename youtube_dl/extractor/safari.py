@@ -90,7 +90,8 @@ class SafariIE(SafariBaseIE):
                             (?:www\.)?(?:safaribooksonline|(?:learning\.)?oreilly)\.com/
                             (?:
                                 library/view/[^/]+/(?P<course_id>[^/]+)/(?P<part>[^/?\#&]+)\.html|
-                                videos/[^/]+/[^/]+/(?P<reference_id>[^-]+-[^/?\#&]+)
+                                videos/[^/]+/[^/]+/(?P<reference_id>[^-]+-[^/?\#&]+)|
+                                learning-paths/[^/]+/(?P<reference_id>[^-]+-[^/?\#&]+)
                             )
                     '''
 
